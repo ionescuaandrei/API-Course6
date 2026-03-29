@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Production Web Development</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="logo">MyPortfolio</div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publish">Publish</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h1>Introduction to Production Web Development</h1>
+          <p>Build, debug, and deploy a very simple portfolio page.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>1. Simple Card Layout</h2>
+          <p>Start with a clean layout that is easy to read and maintain.</p>
+          <div class="cards-basic">
+            <article class="card">Project 1</article>
+            <article class="card">Project 2</article>
+            <article class="card">Project 3</article>
+          </div>
+          <p class="note">Resize the page and observe how cards stack on smaller screens.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <h2>2. Flexbox (Modern Way)</h2>
+          <p>The same cards, now with a cleaner and more reliable layout.</p>
+          <div class="cards-flex">
+            <article class="card">Project 1</article>
+            <article class="card">Project 2</article>
+            <article class="card">Project 3</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>3. Debug with DevTools</h2>
+          <ul>
+            <li>Right click and press Inspect</li>
+            <li>Check the box model (margin, border, padding, content)</li>
+            <li>Toggle CSS properties on/off live</li>
+            <li>Use Flex overlays to understand spacing and alignment</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="publish" class="section section-alt">
+        <div class="container">
+          <h2>4. Publish with GitHub Pages</h2>
+          <ol>
+            <li>Create a GitHub repository</li>
+            <li>Push your code</li>
+            <li>Enable Pages from Settings</li>
+            <li>Open your public link</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Author: Ionescu Andrei | Microsoft Teams: ____________________</p>
+      </div>
+    </footer>
+  </body>
+</html>
